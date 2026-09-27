@@ -1,0 +1,9 @@
+# NOTE: unlike the default `flutter create` template, this project keeps
+# gradlew, gradlew.bat and gradle/wrapper/gradle-wrapper.jar committed to
+# git on purpose -- the GitHub Actions workflow needs them to build the APK
+# without Flutter installed locally.
+
+/.gradle
+/captures/
+local.properties
+GeneratedPluginRegistrant.java
