@@ -1,0 +1,23 @@
+name: blood_donor_finder
+description: "A local, offline Blood Donor Finder app. No Firebase, no SQL, no online database — all data is stored on-device using SharedPreferences."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
